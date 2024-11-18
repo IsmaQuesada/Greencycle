@@ -1,0 +1,176 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.margindeded {
+    margin-right: 5px;
+}
+
+.textoIzquierda {
+    margin-bottom: 4% !important;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ImagenMaterial {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.headerFactura {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.headerFactura div {
+    align-items: center;
+}
+
+
+.headerFactura div h2 {
+    margin-top: 10% !important;
+}
+
+.containerFactura {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-facturado {
+    width: 82%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    margin-top: 10px;
+}
+
+
+
+.containerCanjeo {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.infoCange {
+    width: 60%;
+    padding: 20px 50px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+
+}
+
+.infoCentro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoCentro div {
+    width: auto;
+    height: auto;
+}
+
+
+.infoCliente {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.containerCanjeo form {
+    width: 100%;
+}
+
+.materiales {
+    width: 100% !important;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translate(-20px, 0px);
+}
+
+#table-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+}
+
+#table-container table {
+    border-collapse: collapse;
+}
+
+#table-head {
+    width: 100% !important;
+    height: auto;
+}
+
+#table-head tr {
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+}
+
+#table-head tr th {
+    padding: 8px;
+    text-align: left;
+}
+
+#table-container table caption {
+    margin: 0px 0px 10px 0px;
+}
+
+#table-head th {
+    background-color: #101820;
+    color: white;
+    text-align: left;
+}
+
+#table-head th,
+#table-body td {
+    border: solid 1px silver;
+    padding: 5px;
+}
+
+#table-body {
+    text-align: center;
+}
+
+.containerTotal {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: right;
+}
